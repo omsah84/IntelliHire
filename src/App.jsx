@@ -1,8 +1,8 @@
-
+import Layout from "./components/Layout"
 function App() {
   return (
     <>
-    starging include your module
+   <Layout/>
     </>
   )
 }
