@@ -1,4 +1,4 @@
-function home(){
+function Home(){
     return(<>
     
     this is a homepage
