@@ -1,8 +1,10 @@
 import Layout from "./components/Layout"
+import  Home from "./component/Home"
+
 function App() {
   return (
     <>
-   <Layout/>
+   <App Name="heading"/>
     </>
   )
 }
