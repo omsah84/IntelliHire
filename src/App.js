@@ -8,15 +8,7 @@ export default function App() {
   return (
 
     <>
-      <div className='app'>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/StartInterview" element={<StartInterView />} />
-            {/* <Route path="*" element={<NoPage />} /> */}
-          </Routes>
-        </BrowserRouter>
-      </div>
+     write a code from here
     </>
 
   )
