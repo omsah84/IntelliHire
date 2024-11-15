@@ -1,10 +1,13 @@
 import Layout from "./components/Layout"
 import videocap from "./components/videocap"
+import React from 'react';
 function App() {
   return (
     <>
-   <Layout/>
-   <videocap/>
+  
+   <div className="App">
+      <VideoCapture />
+    </div>
    
     </>
   )

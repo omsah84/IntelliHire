@@ -1,8 +1,11 @@
 function videocap(){
-    return(<>
-    
-    this is videocapature
-    </>);
+  return(<>
+  
+  this is videocapture
+  </>);
 }
 
-export default videocap;
+
+
+
+export default videocap;;

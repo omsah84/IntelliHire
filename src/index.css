@@ -17,3 +17,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.App{
+
+  margin: 500px;
+  padding: 400px;
+  box-sizing:content-box;
+  background-color:black;
+
+
+
+}
