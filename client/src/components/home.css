@@ -1,0 +1,22 @@
+.home{
+    background-color: black;
+    width:100%;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+
+.btn{
+    margin-top: 50px;
+    color: black;
+    width: 200px;
+    height:fit-content;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+    
