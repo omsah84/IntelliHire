@@ -1,19 +1,15 @@
-import './Home.css'
+ import './Home.css'
 
-export default function Home() {
+  export default function Home() {
 
-  return (
+   return (
     <>
  
-      <div className="home" >
-        <h1 style={{fontSize:'50px'}}>This is intelihire</h1> 
-        <button className='btn' > start</button>
-        </div>
-        
       
+      </>
+    )
+  }
 
-    </>
-  )
-}
+
 
 

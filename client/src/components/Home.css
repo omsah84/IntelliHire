@@ -1,4 +1,5 @@
-.home{
+.flex{
+    display:flex;
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -14,4 +15,28 @@
     color: white;
     background-color: crimson;
     font-weight: 600;
-}
+    align-content: center;
+} 
+
+.right{
+    flex-basis:30%;
+    
+    background-color: greenyellow;
+    color:aliceblue;
+    padding: 20px;
+    border: 1px;
+    }
+    
+    .left{
+    flex-basis: 70%;
+        background-color: black;
+         color:aliceblue;
+         padding: 20px;
+         border: 1px;
+    
+    
+    
+    }
+
+
+   
