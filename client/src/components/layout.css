@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    height: 80vh;
+    border: none; 
+    border-top: 3px solid red; 
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    margin: 20px 0;
+}
+
+.left {
+    flex-basis: 70%;
+    color: blue;
+
+}
+
+.right {
+    border-left:  solid red;
+    height: 100%; 
+    margin: 0 10px;
+    flex-basis: 30%;
+    color: blue;
+
+
+}
+
+.btn {
+    align-items: center;
+    background-color: lightblue;
+    text-align-last: center;
+}

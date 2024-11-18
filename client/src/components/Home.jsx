@@ -3,7 +3,7 @@ import "./home.css"
 export default function Home() {
   return (
     <div className='home'>
-      <h4>Welcome to Virtual Interview Assistant</h4>
+      <h2>Welcome to Virtual Interview Assistant</h2>
       <button className='btn'>Start</button>
     </div>
   )
