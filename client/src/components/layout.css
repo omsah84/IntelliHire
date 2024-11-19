@@ -1,0 +1,32 @@
+.flex {
+    display:flex;
+    height:80hv;
+    border:none;
+    border-top: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    border-left: 3px solid burlywood;
+    border-right: 3px solid burlywood;
+    margin: 20px 0;
+}
+
+.left {
+    flex-basis: 70%;
+    color: blueviolet;
+
+}
+
+.right {
+    border-left: solid burlywood;
+    height: 100%;
+    margin: 0 10px;
+    flex-basis: 30%;
+    color: aqua;
+
+
+}
+
+.btn {
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
