@@ -1,12 +1,13 @@
 .flex {
     display:flex;
-    height:80hv;
+    height:500px;
     border:none;
-    border-top: 3px solid burlywood;
-    border-bottom: 3px solid burlywood;
-    border-left: 3px solid burlywood;
-    border-right: 3px solid burlywood;
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    border-left: 3px solid brown;
+    border-right: 3px solid brown;
     margin: 20px 0;
+    font-size: 30px;
 }
 
 .left {
@@ -20,13 +21,17 @@
     height: 100%;
     margin: 0 10px;
     flex-basis: 30%;
-    color: aqua;
+    color:blueviolet;
 
 
 }
 
 .btn {
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: cornflowerblue;
+    margin: auto;
+    
 }
 
