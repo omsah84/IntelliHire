@@ -9,9 +9,6 @@ export default function Home() {
         <h1 style={{fontSize:'50px'}}>This is intelihire</h1> 
         <button className='btn' > start</button>
         </div>
-        
-      
-
     </>
   )
 }
