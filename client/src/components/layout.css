@@ -15,6 +15,7 @@
     flex-basis: 60%;
     color: blue;
     padding: 10px;
+    height: fit-content;
 }
 
 .webcam{
@@ -22,8 +23,9 @@
     height: 100%;
 }
 
-
-
+.result{
+    text-align: center;
+}
 
 .right {
     border-left:  solid red;
