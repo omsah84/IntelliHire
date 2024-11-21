@@ -1,6 +1,6 @@
 .container{
 width: 100%;
-height: 400px;
+height: fit content;
 border: 2px solid red;
 display: flex;
 gap:2px;
@@ -10,6 +10,7 @@ padding: 3px;
 .left{
     flex-basis: 60%;
     border: 2px solid black;
+    height: fit-content;
 
 }
 .webcam{
@@ -20,7 +21,12 @@ padding: 3px;
 .right{
     flex-basis: 40%;
     border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto ;
 
+}
+.result{
+    text-align: center;
 }
 
 .btn{
