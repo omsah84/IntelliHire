@@ -14,11 +14,15 @@
     flex-basis: 60%;
     color: blueviolet;
     padding: 10px;
+    height: fit-content;
 
 }
 .webcam{
     width: 100%;
     height: 100%;
+}
+.result{
+    text-align: center;
 }
 
 .right {
