@@ -1,15 +1,54 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  /* color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Global Styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Typography */
+body {
+  margin          : 0;
+  padding         : 0;
+  background-color: #242424;
+  color           : rgba(255, 255, 255, 0.87);
+  font-family     : "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height     : 1.6;
+  font-weight     : 400;
+  box-sizing      : border-box;
+  overflow-x      : hidden;
+  /* Prevent horizontal scrolling */
+}
+
+
+/* Button styles */
+button {
+  font-family     : "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size       : 16px;
+  line-height     : 1.5;
+  padding         : 10px 20px;
+  color           : white;
+  background-color: #007bff;
+  border          : none;
+  border-radius   : 8px;
+  cursor          : pointer;
+  transition      : background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff4757;
+  transform       : scale(1.05);
+}
+
+/* Image styles */
+img {
+  border-radius: 8px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding  : 0;
+  }
+}
