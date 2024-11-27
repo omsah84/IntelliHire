@@ -9,13 +9,13 @@ padding: 3px;
 
 .left{
     flex-basis: 60%;
-    border: 2px solid black;
+
     height: fit-content;
 
 }
 .webcam{
-    width: 100%;
-    height: 100%;
+    width: 100%;    
+    height: fit-content;
 }
 
 .right{
@@ -27,6 +27,7 @@ padding: 3px;
 }
 .result{
     text-align: center;
+    height: fit-content;
 }
 
 .btn{

@@ -1,4 +1,7 @@
+import { Outlet, Link } from 'react-router'
 import './Home.css'
+import Layout from './Layout'
+import React from 'react'
 
 export default function Home() {
 
@@ -6,8 +9,9 @@ export default function Home() {
     <>
  
       <div className="home" >
-        <h1 style={{fontSize:'50px'}}>This is intelihire</h1> 
-        <button className='btn' > start</button>
+        <h1 style={{fontSize:'50px'}}>Welcome to Intellihire</h1> 
+         <Link to = "start" className="Start"><button className="btn" > start</button></Link>
+         <Outlet/>
         </div>
     </>
   )
